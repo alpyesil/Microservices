@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7CB2899E-CED2-49A9-8EB7-14F9977678CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{C510D821-5A46-4DE5-86FC-B71C5A21EE36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Services.Catalog", "Services\Catalog\Course.Services.Catalog\Course.Services.Catalog.csproj", "{2B2F1097-2CB8-447D-AF41-8AA35EBA67EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{E0EC6A4D-9510-4BE4-B11A-49A3A512C90E}"
+	ProjectSection(SolutionItems) = preProject
+		docs\ports.txt = docs\ports.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{A522C9C2-0805-46E3-8199-33CF832E71D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Shared", "Shared\Course.Shared\Course.Shared.csproj", "{BCC708C0-69BC-455A-A656-B1DBE5E4D467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C510D821-5A46-4DE5-86FC-B71C5A21EE36} = {7CB2899E-CED2-49A9-8EB7-14F9977678CF}
+		{2B2F1097-2CB8-447D-AF41-8AA35EBA67EF} = {C510D821-5A46-4DE5-86FC-B71C5A21EE36}
+		{BCC708C0-69BC-455A-A656-B1DBE5E4D467} = {A522C9C2-0805-46E3-8199-33CF832E71D2}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B2F1097-2CB8-447D-AF41-8AA35EBA67EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2F1097-2CB8-447D-AF41-8AA35EBA67EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2F1097-2CB8-447D-AF41-8AA35EBA67EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2F1097-2CB8-447D-AF41-8AA35EBA67EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC708C0-69BC-455A-A656-B1DBE5E4D467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC708C0-69BC-455A-A656-B1DBE5E4D467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC708C0-69BC-455A-A656-B1DBE5E4D467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC708C0-69BC-455A-A656-B1DBE5E4D467}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
